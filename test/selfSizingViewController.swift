@@ -16,7 +16,6 @@ class selfSizingViewController: UIViewController ,UITableViewDataSource, UITable
         
         tbv.delegate = self
         tbv.dataSource = self
-       
         
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
