@@ -7,6 +7,10 @@
 
 import UIKit
 
-class verticalcollectionCollectionViewCell: UICollectionViewCell {
-    
+class verticalcollectionCollectionViewCell:
+{
+    @IBOutlet weak var photo: UIImageView!
+    func setInfo(photo:UIImage){
+        self.photo.image = photo
+    }
 }
