@@ -8,5 +8,7 @@
 import UIKit
 
 class HeaderFooterCollectionViewCell: UICollectionViewCell {
+
+    @IBOutlet weak var imgInView: UIImageView!
     
 }

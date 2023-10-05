@@ -25,6 +25,9 @@
 		1055385C2AC959A2002F4E5F /* testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1055385B2AC959A2002F4E5F /* testUITestsLaunchTests.swift */; };
 		1071855C2ACE9BFA001E7272 /* verticalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071855B2ACE9BFA001E7272 /* verticalCollectionViewCell.swift */; };
 		1071855E2ACE9DF8001E7272 /* verticalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071855D2ACE9DF8001E7272 /* verticalViewController.swift */; };
+		107185602ACEBFC4001E7272 /* HeaderFooterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071855F2ACEBFC4001E7272 /* HeaderFooterViewController.swift */; };
+		107185622ACED292001E7272 /* HeaderFooterCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107185612ACED292001E7272 /* HeaderFooterCollectionReusableView.swift */; };
+		107185642ACED2AA001E7272 /* HeaderFooterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107185632ACED2AA001E7272 /* HeaderFooterCollectionViewCell.swift */; };
 		1083946E2ACAFFF1000B92AE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083946D2ACAFFF1000B92AE /* TableViewCell.swift */; };
 		108394702ACB014E000B92AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083946F2ACB014E000B92AE /* ViewController.swift */; };
 /* End PBXBuildFile section */
@@ -69,6 +72,9 @@
 		1055385B2AC959A2002F4E5F /* testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1071855B2ACE9BFA001E7272 /* verticalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verticalCollectionViewCell.swift; sourceTree = "<group>"; };
 		1071855D2ACE9DF8001E7272 /* verticalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verticalViewController.swift; sourceTree = "<group>"; };
+		1071855F2ACEBFC4001E7272 /* HeaderFooterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderFooterViewController.swift; sourceTree = "<group>"; };
+		107185612ACED292001E7272 /* HeaderFooterCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HeaderFooterCollectionReusableView.swift; path = AppIcon.appiconset/HeaderFooterCollectionReusableView.swift; sourceTree = SOURCE_ROOT; };
+		107185632ACED2AA001E7272 /* HeaderFooterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderFooterCollectionViewCell.swift; sourceTree = "<group>"; };
 		1083946D2ACAFFF1000B92AE /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		1083946F2ACB014E000B92AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +145,9 @@
 				1052713E2ACD69F5007A1123 /* firstCollectionViewController.swift */,
 				1071855B2ACE9BFA001E7272 /* verticalCollectionViewCell.swift */,
 				1071855D2ACE9DF8001E7272 /* verticalViewController.swift */,
+				1071855F2ACEBFC4001E7272 /* HeaderFooterViewController.swift */,
+				107185612ACED292001E7272 /* HeaderFooterCollectionReusableView.swift */,
+				107185632ACED2AA001E7272 /* HeaderFooterCollectionViewCell.swift */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -293,14 +302,17 @@
 			files = (
 				1083946E2ACAFFF1000B92AE /* TableViewCell.swift in Sources */,
 				1052713F2ACD69F5007A1123 /* firstCollectionViewController.swift in Sources */,
+				107185602ACEBFC4001E7272 /* HeaderFooterViewController.swift in Sources */,
 				105538392AC959A1002F4E5F /* AppDelegate.swift in Sources */,
 				1052713D2ACD67A5007A1123 /* FirstCollectionViewCell.swift in Sources */,
+				107185622ACED292001E7272 /* HeaderFooterCollectionReusableView.swift in Sources */,
 				1050D6062ACC310F0091067B /* sectionViewController.swift in Sources */,
 				1071855C2ACE9BFA001E7272 /* verticalCollectionViewCell.swift in Sources */,
 				108394702ACB014E000B92AE /* ViewController.swift in Sources */,
 				1050D6082ACC3C5A0091067B /* RefreshViewController.swift in Sources */,
 				1052713B2ACD3F71007A1123 /* NoDataViewController.swift in Sources */,
 				1050D6042ACC01A30091067B /* insertUpdateDeleteViewController.swift in Sources */,
+				107185642ACED2AA001E7272 /* HeaderFooterCollectionViewCell.swift in Sources */,
 				1050D60A2ACC494F0091067B /* selfSizingViewController.swift in Sources */,
 				1050D60C2ACC49CD0091067B /* selfSizingTableViewCell.swift in Sources */,
 				1071855E2ACE9DF8001E7272 /* verticalViewController.swift in Sources */,
