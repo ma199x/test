@@ -16,6 +16,10 @@ class mustafa: UIViewController {
     }
     
 
+    @IBAction func action(_ sender: Any) {
+        print("1")
+    }
+    
     /*
     // MARK: - Navigation
 
