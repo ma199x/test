@@ -7,11 +7,15 @@
 
 import UIKit
 
-class TCTableViewCell: UITableViewCell {
-
+class TCTableViewCell: UITableViewCell ,UICollectionViewDelegate,UICollectionViewDataSource {
+    
+    var img = [UIImage]()
+    @IBOutlet weak var collection: UICollectionView!
+    @IBOutlet weak var lab: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        collection.delegate = self
+        collection.dataSource = self
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -19,5 +23,20 @@ class TCTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    func setInfo(img:[UIImage],title:String)
+    {
+        self.lab.text = title
+        self.img = img
+        
+    }
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return img.count
+    }
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let item = collection.dequeueReusableCell(withReuseIdentifier: "itemName", for: indexPath) as! TCCollectionViewCell
+        item.imgInCollection.image = img[indexPath.row]
+        return item
+    }
+    
 
 }

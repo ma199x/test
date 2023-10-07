@@ -8,5 +8,6 @@
 import UIKit
 
 class TCCollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var imgInCollection: UIImageView!
     
 }
