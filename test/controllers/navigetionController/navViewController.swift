@@ -9,21 +9,38 @@ import UIKit
 
 class navViewController: UIViewController {
 
-    override func viewDidLoad() {
+    override func viewDidLoad() 
+    {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        title = "title .. "
+//        let btn = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(logout))
+        
+        let btn = UIBarButtonItem()
+        btn.action = #selector(logout)
+        btn.target = self
+        btn.title = "logout"
+        
+        navigationController?.navigationBar.barTintColor = UIColor.red
+        navigationItem.rightBarButtonItem = btn
+        
+        navigationController?.navigationBar.prefersLargeTitles = false
+        navigationController?.navigationBar.tintColor = UIColor.white  // not work
+        
+    }
+    @objc func logout()
+    {
+        print("logout done")
+    }
+    @IBAction func barButtnItem(_ sender: Any) {
+        print("s")
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+//    @IBAction func viewSecondView(_ sender: Any) {
+//        let vc = self.storyboard?.instantiateViewController(identifier: "secondVC")
+//        navigationController?.pushViewController(vc!, animated: true)
+//    }
+    
+  
 
 }
