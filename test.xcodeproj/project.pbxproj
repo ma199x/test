@@ -27,6 +27,8 @@
 		105538502AC959A1002F4E5F /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1055384F2AC959A1002F4E5F /* testTests.swift */; };
 		1055385A2AC959A2002F4E5F /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105538592AC959A2002F4E5F /* testUITests.swift */; };
 		1055385C2AC959A2002F4E5F /* testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1055385B2AC959A2002F4E5F /* testUITestsLaunchTests.swift */; };
+		1057ED922AD2B9F600225C02 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1057ED912AD2B9F600225C02 /* secondViewController.swift */; };
+		1057ED952AD2C67800225C02 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1057ED942AD2C67800225C02 /* TabBarViewController.swift */; };
 		1071855C2ACE9BFA001E7272 /* verticalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071855B2ACE9BFA001E7272 /* verticalCollectionViewCell.swift */; };
 		1071855E2ACE9DF8001E7272 /* verticalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071855D2ACE9DF8001E7272 /* verticalViewController.swift */; };
 		107185602ACEBFC4001E7272 /* HeaderFooterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071855F2ACEBFC4001E7272 /* HeaderFooterViewController.swift */; };
@@ -80,6 +82,8 @@
 		105538552AC959A1002F4E5F /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		105538592AC959A2002F4E5F /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
 		1055385B2AC959A2002F4E5F /* testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1057ED912AD2B9F600225C02 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		1057ED942AD2C67800225C02 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		1071855B2ACE9BFA001E7272 /* verticalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verticalCollectionViewCell.swift; sourceTree = "<group>"; };
 		1071855D2ACE9DF8001E7272 /* verticalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verticalViewController.swift; sourceTree = "<group>"; };
 		1071855F2ACEBFC4001E7272 /* HeaderFooterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderFooterViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +123,7 @@
 		10518C432AD144AA002FBDC6 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1057ED932AD2C65F00225C02 /* TabBar */,
 				10518C552AD1771F002FBDC6 /* navigetionController */,
 				10518C4E2AD161B5002FBDC6 /* TableCollection */,
 			);
@@ -139,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				10518C562AD17800002FBDC6 /* navViewController.swift */,
+				1057ED912AD2B9F600225C02 /* secondViewController.swift */,
 			);
 			path = navigetionController;
 			sourceTree = "<group>";
@@ -209,6 +215,14 @@
 				1055385B2AC959A2002F4E5F /* testUITestsLaunchTests.swift */,
 			);
 			path = testUITests;
+			sourceTree = "<group>";
+		};
+		1057ED932AD2C65F00225C02 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1057ED942AD2C67800225C02 /* TabBarViewController.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,9 +369,11 @@
 				107185622ACED292001E7272 /* HeaderFooterCollectionReusableView.swift in Sources */,
 				1050D6062ACC310F0091067B /* sectionViewController.swift in Sources */,
 				1071855C2ACE9BFA001E7272 /* verticalCollectionViewCell.swift in Sources */,
+				1057ED952AD2C67800225C02 /* TabBarViewController.swift in Sources */,
 				108394702ACB014E000B92AE /* ViewController.swift in Sources */,
 				1050D6082ACC3C5A0091067B /* RefreshViewController.swift in Sources */,
 				1052713B2ACD3F71007A1123 /* NoDataViewController.swift in Sources */,
+				1057ED922AD2B9F600225C02 /* secondViewController.swift in Sources */,
 				1050D6042ACC01A30091067B /* insertUpdateDeleteViewController.swift in Sources */,
 				107185642ACED2AA001E7272 /* HeaderFooterCollectionViewCell.swift in Sources */,
 				1050D60A2ACC494F0091067B /* selfSizingViewController.swift in Sources */,

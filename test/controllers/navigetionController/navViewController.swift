@@ -13,34 +13,46 @@ class navViewController: UIViewController {
     {
         super.viewDidLoad()
         
-        title = "title .. "
-//        let btn = UIBarButtonItem(title: "Logout", style: .plain, target: self, action: #selector(logout))
+        // can  do this to create bar button item
+        //let leftBtn = UIBarButtonItem(title: "back", style: .plain, target: self, action: #selector(back))
+        //navigationItem.leftBarButtonItem = leftBtn
         
-        let btn = UIBarButtonItem()
-        btn.action = #selector(logout)
-        btn.target = self
-        btn.title = "logout"
+        //or can do this to create bar button item
+        let secondLeftBtn = UIBarButtonItem()
+        secondLeftBtn.target = self
+        secondLeftBtn.action = #selector(back)
+        secondLeftBtn.title = "back"
         
-        navigationController?.navigationBar.barTintColor = UIColor.red
-        navigationItem.rightBarButtonItem = btn
+        navigationItem.leftBarButtonItem = secondLeftBtn
         
+        // disable large title
         navigationController?.navigationBar.prefersLargeTitles = false
-        navigationController?.navigationBar.tintColor = UIColor.white  // not work
+        navigationController?.navigationBar.tintColor = UIColor.red
         
+        navigationController?.navigationBar.isTranslucent = false
+        
+        navigationController?.navigationBar.backgroundColor = UIColor.blue
+//        navigationController?.navigationBar.barTintColor = UIColor.green
+        
+
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor:UIColor.yellow ,NSAttributedString.Key.font : UIFont(name: "Helvetica-Bold", size: 22)!]
     }
-    @objc func logout()
+    @objc func back()
     {
-        print("logout done")
+        print("back")
     }
-    @IBAction func barButtnItem(_ sender: Any) {
-        print("s")
-    }
-    
-//    @IBAction func viewSecondView(_ sender: Any) {
-//        let vc = self.storyboard?.instantiateViewController(identifier: "secondVC")
-//        navigationController?.pushViewController(vc!, animated: true)
-//    }
-    
+
+   
   
+    @IBAction func cilckme(_ sender: Any) {
+         let goBtn = storyboard?.instantiateViewController(withIdentifier: "cilck")
+        navigationController?.pushViewController(goBtn!, animated: true)
+    }
+   
+    
+    @IBAction func edit(_ sender: Any) {
+        print("edit")
+    }
+    
 
 }
