@@ -10,8 +10,10 @@ class TabBarViewController: UIViewController {
         
 
     }
-    
-
+    override func viewWillAppear(_ animated: Bool) {
+        tabBarController?.tabBar.isHidden = true
+    }
+  
     
 
 }

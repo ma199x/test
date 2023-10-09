@@ -37,6 +37,8 @@
 		107185642ACED2AA001E7272 /* HeaderFooterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107185632ACED2AA001E7272 /* HeaderFooterCollectionViewCell.swift */; };
 		107185662ACEE980001E7272 /* CollectionAndTableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107185652ACEE980001E7272 /* CollectionAndTableTableViewCell.swift */; };
 		107185682ACEEA17001E7272 /* collectionAndTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107185672ACEEA17001E7272 /* collectionAndTableViewController.swift */; };
+		10820E652AD4109F008B005B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10820E642AD4109F008B005B /* FirstViewController.swift */; };
+		10820E672AD410AF008B005B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10820E662AD410AF008B005B /* SecondViewController.swift */; };
 		1083946E2ACAFFF1000B92AE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083946D2ACAFFF1000B92AE /* TableViewCell.swift */; };
 		108394702ACB014E000B92AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083946F2ACB014E000B92AE /* ViewController.swift */; };
 /* End PBXBuildFile section */
@@ -93,6 +95,8 @@
 		107185632ACED2AA001E7272 /* HeaderFooterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderFooterCollectionViewCell.swift; sourceTree = "<group>"; };
 		107185652ACEE980001E7272 /* CollectionAndTableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionAndTableTableViewCell.swift; sourceTree = "<group>"; };
 		107185672ACEEA17001E7272 /* collectionAndTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionAndTableViewController.swift; sourceTree = "<group>"; };
+		10820E642AD4109F008B005B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		10820E662AD410AF008B005B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		1083946D2ACAFFF1000B92AE /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		1083946F2ACB014E000B92AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +129,8 @@
 		10518C432AD144AA002FBDC6 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				10820E632AD41075008B005B /* Passing Data */,
+				10820E622AD3E062008B005B /* cintainers */,
 				1057ED932AD2C65F00225C02 /* TabBar */,
 				10518C552AD1771F002FBDC6 /* navigetionController */,
 				10518C4E2AD161B5002FBDC6 /* TableCollection */,
@@ -226,6 +232,22 @@
 				1057ED962AD2DFF700225C02 /* TabBarClass.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		10820E622AD3E062008B005B /* cintainers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = cintainers;
+			sourceTree = "<group>";
+		};
+		10820E632AD41075008B005B /* Passing Data */ = {
+			isa = PBXGroup;
+			children = (
+				10820E642AD4109F008B005B /* FirstViewController.swift */,
+				10820E662AD410AF008B005B /* SecondViewController.swift */,
+			);
+			path = "Passing Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,9 +381,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10820E652AD4109F008B005B /* FirstViewController.swift in Sources */,
 				1083946E2ACAFFF1000B92AE /* TableViewCell.swift in Sources */,
 				1052713F2ACD69F5007A1123 /* firstCollectionViewController.swift in Sources */,
 				107185662ACEE980001E7272 /* CollectionAndTableTableViewCell.swift in Sources */,
+				10820E672AD410AF008B005B /* SecondViewController.swift in Sources */,
 				10518C522AD16324002FBDC6 /* TCViewController.swift in Sources */,
 				107185602ACEBFC4001E7272 /* HeaderFooterViewController.swift in Sources */,
 				105538392AC959A1002F4E5F /* AppDelegate.swift in Sources */,

@@ -8,22 +8,21 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
+    var userData:UserInfo?
+    @IBOutlet weak var myLable: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        if let user =  userData {
+            myLable.text = "\(user.name)!  \(user.age)"
+        }
+      
+       
+        
     }
-    
+}
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+struct UserInfo{
+    var name:String
+    var age: Int
+   
 }

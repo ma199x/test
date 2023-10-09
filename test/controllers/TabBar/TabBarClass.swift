@@ -11,8 +11,9 @@ class TabBarClass: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        selectedIndex = 2
-        tabBar.unselectedItemTintColor = UIColor.blue
+//        selectedIndex = 0
+//        tabBar.unselectedItemTintColor = UIColor.blue
+//        tabBar.isHidden = false
     }
     
 
