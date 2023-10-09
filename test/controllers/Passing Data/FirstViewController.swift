@@ -20,7 +20,7 @@ class FirstViewController: UIViewController {
         let SecondUI = storyboard?.instantiateViewController(withIdentifier: "SecondID"
         ) as! SecondViewController
 //        SecondUI.name = TextField.text!
-        SecondUI.userData = UserInfo(name: "ali", age: 12)
+        SecondUI.userData = UserInfo(name: "argteli", age: 12)
         navigationController?.pushViewController(SecondUI, animated: true)
 //        present(SecondUI, animated: true, completion: nil)
        
