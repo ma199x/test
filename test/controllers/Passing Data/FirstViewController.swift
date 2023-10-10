@@ -13,14 +13,11 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var TextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     @IBAction func clickMe(_ sender: Any) {
         let SecondUI = storyboard?.instantiateViewController(withIdentifier: "SecondID"
         ) as! SecondViewController
-//        SecondUI.name = TextField.text!
-        SecondUI.userData = UserInfo(name: "argteli", age: 12)
+        SecondUI.userData = UserInfo(name: "arli", age: 12)
         navigationController?.pushViewController(SecondUI, animated: true)
 //        present(SecondUI, animated: true, completion: nil)
        

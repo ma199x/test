@@ -7,25 +7,27 @@
 
 import UIKit
 
-class oneViewController: UIViewController {
+class ThirdViewController: UIViewController {
     var myData = ""
-    @IBOutlet weak var lab1: UILabel!
+    @IBOutlet weak var labData: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "goTo2"{
-//            
-//        }
-//        if segue.destination == threeViewController{
-//            
-//        }
         
-        if let VC = segue.destination as? towViewController{
-            VC.data = "transfer from 1 to 2 "
+        if let vc = segue.destination as? FourthViewController
+        {
+            vc.data = "i am from 3"
         }
     }
+    
+    @IBAction func unwindTo4 (sender:UIStoryboardSegue )
+    {
+//        labData.text = myData
+//        print("f")
+    }
+
 
 }

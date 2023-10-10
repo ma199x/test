@@ -7,19 +7,21 @@
 
 import UIKit
 
-class towViewController: UIViewController {
+class FourthViewController: UIViewController {
     var data = ""
-    @IBOutlet weak var lab2: UILabel!
+    @IBOutlet weak var labData: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
     override func viewWillAppear(_ animated: Bool) {
-        lab2.text = data
+        labData.text = data
     }
-    @IBAction func unwindToDestination(_ unwindSegue: UIStoryboardSegue) {
-        // Code to handle the unwind action goes here
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let vc =  segue.destination as? FifthViewController{
+            vc.data = "i am from 4"
+        }
     }
-
-
+    
+   
 }

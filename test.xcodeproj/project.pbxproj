@@ -30,6 +30,7 @@
 		1057ED922AD2B9F600225C02 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1057ED912AD2B9F600225C02 /* secondViewController.swift */; };
 		1057ED952AD2C67800225C02 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1057ED942AD2C67800225C02 /* TabBarViewController.swift */; };
 		1057ED972AD2DFF700225C02 /* TabBarClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1057ED962AD2DFF700225C02 /* TabBarClass.swift */; };
+		106DD39B2AD52D490063294B /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DD39A2AD52D490063294B /* FifthViewController.swift */; };
 		1071855C2ACE9BFA001E7272 /* verticalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071855B2ACE9BFA001E7272 /* verticalCollectionViewCell.swift */; };
 		1071855E2ACE9DF8001E7272 /* verticalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071855D2ACE9DF8001E7272 /* verticalViewController.swift */; };
 		107185602ACEBFC4001E7272 /* HeaderFooterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071855F2ACEBFC4001E7272 /* HeaderFooterViewController.swift */; };
@@ -39,6 +40,8 @@
 		107185682ACEEA17001E7272 /* collectionAndTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107185672ACEEA17001E7272 /* collectionAndTableViewController.swift */; };
 		10820E652AD4109F008B005B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10820E642AD4109F008B005B /* FirstViewController.swift */; };
 		10820E672AD410AF008B005B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10820E662AD410AF008B005B /* SecondViewController.swift */; };
+		10820E692AD42D3D008B005B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10820E682AD42D3D008B005B /* ThirdViewController.swift */; };
+		10820E6B2AD42D89008B005B /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10820E6A2AD42D89008B005B /* FourthViewController.swift */; };
 		1083946E2ACAFFF1000B92AE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083946D2ACAFFF1000B92AE /* TableViewCell.swift */; };
 		108394702ACB014E000B92AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1083946F2ACB014E000B92AE /* ViewController.swift */; };
 /* End PBXBuildFile section */
@@ -88,6 +91,7 @@
 		1057ED912AD2B9F600225C02 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		1057ED942AD2C67800225C02 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		1057ED962AD2DFF700225C02 /* TabBarClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarClass.swift; sourceTree = "<group>"; };
+		106DD39A2AD52D490063294B /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		1071855B2ACE9BFA001E7272 /* verticalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verticalCollectionViewCell.swift; sourceTree = "<group>"; };
 		1071855D2ACE9DF8001E7272 /* verticalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verticalViewController.swift; sourceTree = "<group>"; };
 		1071855F2ACEBFC4001E7272 /* HeaderFooterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderFooterViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 		107185672ACEEA17001E7272 /* collectionAndTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionAndTableViewController.swift; sourceTree = "<group>"; };
 		10820E642AD4109F008B005B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		10820E662AD410AF008B005B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		10820E682AD42D3D008B005B /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		10820E6A2AD42D89008B005B /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		1083946D2ACAFFF1000B92AE /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		1083946F2ACB014E000B92AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -246,6 +252,9 @@
 			children = (
 				10820E642AD4109F008B005B /* FirstViewController.swift */,
 				10820E662AD410AF008B005B /* SecondViewController.swift */,
+				10820E682AD42D3D008B005B /* ThirdViewController.swift */,
+				10820E6A2AD42D89008B005B /* FourthViewController.swift */,
+				106DD39A2AD52D490063294B /* FifthViewController.swift */,
 			);
 			path = "Passing Data";
 			sourceTree = "<group>";
@@ -381,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10820E692AD42D3D008B005B /* ThirdViewController.swift in Sources */,
 				10820E652AD4109F008B005B /* FirstViewController.swift in Sources */,
 				1083946E2ACAFFF1000B92AE /* TableViewCell.swift in Sources */,
 				1052713F2ACD69F5007A1123 /* firstCollectionViewController.swift in Sources */,
@@ -389,8 +399,10 @@
 				10518C522AD16324002FBDC6 /* TCViewController.swift in Sources */,
 				107185602ACEBFC4001E7272 /* HeaderFooterViewController.swift in Sources */,
 				105538392AC959A1002F4E5F /* AppDelegate.swift in Sources */,
+				10820E6B2AD42D89008B005B /* FourthViewController.swift in Sources */,
 				10518C542AD16343002FBDC6 /* TCTableViewCell.swift in Sources */,
 				1052713D2ACD67A5007A1123 /* FirstCollectionViewCell.swift in Sources */,
+				106DD39B2AD52D490063294B /* FifthViewController.swift in Sources */,
 				107185682ACEEA17001E7272 /* collectionAndTableViewController.swift in Sources */,
 				10518C502AD1630C002FBDC6 /* TCCollectionViewCell.swift in Sources */,
 				107185622ACED292001E7272 /* HeaderFooterCollectionReusableView.swift in Sources */,
