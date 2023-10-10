@@ -7,6 +7,7 @@
 
 import UIKit
 
+let bgNotificationKey = "changeBackground"
 class FirstTabViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -15,15 +16,11 @@ class FirstTabViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func btnPostNotification(_ sender: Any) 
+    {
+        var color = UIColor.white
+        NotificationCenter.default.post(name: NSNotification.Name(bgNotificationKey), object: color)
     }
-    */
+  
 
 }

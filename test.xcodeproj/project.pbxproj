@@ -31,6 +31,13 @@
 		1057ED952AD2C67800225C02 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1057ED942AD2C67800225C02 /* TabBarViewController.swift */; };
 		1057ED972AD2DFF700225C02 /* TabBarClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1057ED962AD2DFF700225C02 /* TabBarClass.swift */; };
 		106DD39B2AD52D490063294B /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DD39A2AD52D490063294B /* FifthViewController.swift */; };
+		106DD3A02AD542D70063294B /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DD39F2AD542D70063294B /* UserProfileViewController.swift */; };
+		106DD3A22AD543390063294B /* UserDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DD3A12AD543390063294B /* UserDataViewController.swift */; };
+		106DD3A52AD55A790063294B /* FirstTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DD3A42AD55A790063294B /* FirstTabViewController.swift */; };
+		106DD3A72AD55A8B0063294B /* SecondTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DD3A62AD55A8B0063294B /* SecondTabViewController.swift */; };
+		106DD3A92AD55AA30063294B /* ThirdTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DD3A82AD55AA30063294B /* ThirdTabViewController.swift */; };
+		106DD3AB2AD55AB30063294B /* ForthTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DD3AA2AD55AB30063294B /* ForthTabViewController.swift */; };
+		106DD3AD2AD55B830063294B /* TabBarContianerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DD3AC2AD55B830063294B /* TabBarContianerViewController.swift */; };
 		1071855C2ACE9BFA001E7272 /* verticalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071855B2ACE9BFA001E7272 /* verticalCollectionViewCell.swift */; };
 		1071855E2ACE9DF8001E7272 /* verticalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071855D2ACE9DF8001E7272 /* verticalViewController.swift */; };
 		107185602ACEBFC4001E7272 /* HeaderFooterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071855F2ACEBFC4001E7272 /* HeaderFooterViewController.swift */; };
@@ -92,6 +99,13 @@
 		1057ED942AD2C67800225C02 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		1057ED962AD2DFF700225C02 /* TabBarClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarClass.swift; sourceTree = "<group>"; };
 		106DD39A2AD52D490063294B /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		106DD39F2AD542D70063294B /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		106DD3A12AD543390063294B /* UserDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataViewController.swift; sourceTree = "<group>"; };
+		106DD3A42AD55A790063294B /* FirstTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewController.swift; sourceTree = "<group>"; };
+		106DD3A62AD55A8B0063294B /* SecondTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabViewController.swift; sourceTree = "<group>"; };
+		106DD3A82AD55AA30063294B /* ThirdTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabViewController.swift; sourceTree = "<group>"; };
+		106DD3AA2AD55AB30063294B /* ForthTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthTabViewController.swift; sourceTree = "<group>"; };
+		106DD3AC2AD55B830063294B /* TabBarContianerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarContianerViewController.swift; sourceTree = "<group>"; };
 		1071855B2ACE9BFA001E7272 /* verticalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verticalCollectionViewCell.swift; sourceTree = "<group>"; };
 		1071855D2ACE9DF8001E7272 /* verticalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verticalViewController.swift; sourceTree = "<group>"; };
 		1071855F2ACEBFC4001E7272 /* HeaderFooterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderFooterViewController.swift; sourceTree = "<group>"; };
@@ -135,6 +149,8 @@
 		10518C432AD144AA002FBDC6 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				106DD3A32AD55A4F0063294B /* notifcation */,
+				106DD39E2AD540CB0063294B /* passingDataUsingProtocolAndDelegate */,
 				10820E632AD41075008B005B /* Passing Data */,
 				10820E622AD3E062008B005B /* cintainers */,
 				1057ED932AD2C65F00225C02 /* TabBar */,
@@ -238,6 +254,27 @@
 				1057ED962AD2DFF700225C02 /* TabBarClass.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		106DD39E2AD540CB0063294B /* passingDataUsingProtocolAndDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				106DD39F2AD542D70063294B /* UserProfileViewController.swift */,
+				106DD3A12AD543390063294B /* UserDataViewController.swift */,
+			);
+			path = passingDataUsingProtocolAndDelegate;
+			sourceTree = "<group>";
+		};
+		106DD3A32AD55A4F0063294B /* notifcation */ = {
+			isa = PBXGroup;
+			children = (
+				106DD3A42AD55A790063294B /* FirstTabViewController.swift */,
+				106DD3A62AD55A8B0063294B /* SecondTabViewController.swift */,
+				106DD3A82AD55AA30063294B /* ThirdTabViewController.swift */,
+				106DD3AA2AD55AB30063294B /* ForthTabViewController.swift */,
+				106DD3AC2AD55B830063294B /* TabBarContianerViewController.swift */,
+			);
+			path = notifcation;
 			sourceTree = "<group>";
 		};
 		10820E622AD3E062008B005B /* cintainers */ = {
@@ -394,11 +431,14 @@
 				10820E652AD4109F008B005B /* FirstViewController.swift in Sources */,
 				1083946E2ACAFFF1000B92AE /* TableViewCell.swift in Sources */,
 				1052713F2ACD69F5007A1123 /* firstCollectionViewController.swift in Sources */,
+				106DD3AB2AD55AB30063294B /* ForthTabViewController.swift in Sources */,
 				107185662ACEE980001E7272 /* CollectionAndTableTableViewCell.swift in Sources */,
 				10820E672AD410AF008B005B /* SecondViewController.swift in Sources */,
 				10518C522AD16324002FBDC6 /* TCViewController.swift in Sources */,
 				107185602ACEBFC4001E7272 /* HeaderFooterViewController.swift in Sources */,
 				105538392AC959A1002F4E5F /* AppDelegate.swift in Sources */,
+				106DD3A22AD543390063294B /* UserDataViewController.swift in Sources */,
+				106DD3A02AD542D70063294B /* UserProfileViewController.swift in Sources */,
 				10820E6B2AD42D89008B005B /* FourthViewController.swift in Sources */,
 				10518C542AD16343002FBDC6 /* TCTableViewCell.swift in Sources */,
 				1052713D2ACD67A5007A1123 /* FirstCollectionViewCell.swift in Sources */,
@@ -412,12 +452,16 @@
 				108394702ACB014E000B92AE /* ViewController.swift in Sources */,
 				1050D6082ACC3C5A0091067B /* RefreshViewController.swift in Sources */,
 				1052713B2ACD3F71007A1123 /* NoDataViewController.swift in Sources */,
+				106DD3A92AD55AA30063294B /* ThirdTabViewController.swift in Sources */,
 				1057ED922AD2B9F600225C02 /* secondViewController.swift in Sources */,
 				1057ED972AD2DFF700225C02 /* TabBarClass.swift in Sources */,
+				106DD3AD2AD55B830063294B /* TabBarContianerViewController.swift in Sources */,
 				1050D6042ACC01A30091067B /* insertUpdateDeleteViewController.swift in Sources */,
+				106DD3A52AD55A790063294B /* FirstTabViewController.swift in Sources */,
 				107185642ACED2AA001E7272 /* HeaderFooterCollectionViewCell.swift in Sources */,
 				1050D60A2ACC494F0091067B /* selfSizingViewController.swift in Sources */,
 				10518C572AD17800002FBDC6 /* navViewController.swift in Sources */,
+				106DD3A72AD55A8B0063294B /* SecondTabViewController.swift in Sources */,
 				1050D60C2ACC49CD0091067B /* selfSizingTableViewCell.swift in Sources */,
 				1071855E2ACE9DF8001E7272 /* verticalViewController.swift in Sources */,
 				1055383B2AC959A1002F4E5F /* SceneDelegate.swift in Sources */,

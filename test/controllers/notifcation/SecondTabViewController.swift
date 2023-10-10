@@ -11,19 +11,20 @@ class SecondTabViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+      
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @objc func bgchange(noitif : Notification)
+    {
+        if let color = noitif.object as? UIColor {
+            print("SecondTabViewController")
+            view.backgroundColor = UIColor.gray
+        }
+       
     }
-    */
+    deinit{
+        print("f")
+        NotificationCenter.default.removeObserver(self)
+    }
+
 
 }

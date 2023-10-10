@@ -12,7 +12,12 @@ class TabBarContianerViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        if let vc =  viewControllers?[1] as? SecondTabViewController{
+            NotificationCenter.default.addObserver(vc, selector: #selector(vc.bgchange(noitif:)), name: NSNotification.Name(bgNotificationKey), object: nil)
+        }
+        self.tabBar.isTranslucent =  false
+        self.tabBar.backgroundColor = UIColor.white
+       
     }
     
 

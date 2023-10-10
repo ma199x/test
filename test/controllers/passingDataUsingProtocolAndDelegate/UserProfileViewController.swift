@@ -7,23 +7,26 @@
 
 import UIKit
 
-class UserProfileViewController: UIViewController {
+class UserProfileViewController: UIViewController ,UserDataDelegate{
+    func didSelectUserData(inputFoomTextField: String) {
+        labUserData.text = inputFoomTextField
+    }
+    
+   
+    
 
+    @IBOutlet weak var labUserData: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func GetUserData(_ sender: Any) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "userData") as! UserDataViewController
+        vc.myDelegate = self
+        present(vc, animated: true)
     }
-    */
+    
+    
 
 }
