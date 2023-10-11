@@ -36,11 +36,33 @@ class ContainerViewCotroller: UIPageViewController, UIPageViewControllerDelegate
    
 
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
-        return nil
+        
+        guard let currentIndex = arr.firstIndex(of: viewController) else {
+            return nil
+        }
+        let beforIndex = currentIndex - 1
+        guard beforIndex >= 0 else {
+            return arr.last
+        }
+        return arr[beforIndex]
     }
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
-        return nil
+        guard let currentIndex = arr.firstIndex(of: viewController) else {
+            return nil
+        }
+        let afterIndex = currentIndex + 1
+        guard afterIndex < arr.count else {
+            return arr.first
+        }
+        return arr[afterIndex]
+        
+    }
+    func presentationCount(for pageViewController: UIPageViewController) -> Int {
+        return arr.count
+    }
+    func presentationIndex(for pageViewController: UIPageViewController) -> Int {
+        return 0
     }
     
 
