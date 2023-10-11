@@ -30,6 +30,13 @@
 		1057ED922AD2B9F600225C02 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1057ED912AD2B9F600225C02 /* secondViewController.swift */; };
 		1057ED952AD2C67800225C02 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1057ED942AD2C67800225C02 /* TabBarViewController.swift */; };
 		1057ED972AD2DFF700225C02 /* TabBarClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1057ED962AD2DFF700225C02 /* TabBarClass.swift */; };
+		1066BC102AD67D4100028E10 /* segmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1066BC0F2AD67D4100028E10 /* segmentedViewController.swift */; };
+		1066BC132AD6A03F00028E10 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1066BC122AD6A03F00028E10 /* PickerViewController.swift */; };
+		1066BC162AD6AC2000028E10 /* ContainerViewCotroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1066BC152AD6AC2000028E10 /* ContainerViewCotroller.swift */; };
+		1066BC182AD6BC3400028E10 /* TableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1066BC172AD6BC3400028E10 /* TableView.storyboard */; };
+		1066BC1C2AD6BD1A00028E10 /* CollectionView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1066BC1B2AD6BD1A00028E10 /* CollectionView.storyboard */; };
+		1066BC1E2AD6BD6100028E10 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1066BC1D2AD6BD6100028E10 /* TabBar.storyboard */; };
+		1066BC202AD6BDEF00028E10 /* Navigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1066BC1F2AD6BDEF00028E10 /* Navigation.storyboard */; };
 		106DD39B2AD52D490063294B /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DD39A2AD52D490063294B /* FifthViewController.swift */; };
 		106DD3A02AD542D70063294B /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DD39F2AD542D70063294B /* UserProfileViewController.swift */; };
 		106DD3A22AD543390063294B /* UserDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DD3A12AD543390063294B /* UserDataViewController.swift */; };
@@ -38,8 +45,6 @@
 		106DD3A92AD55AA30063294B /* ThirdTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DD3A82AD55AA30063294B /* ThirdTabViewController.swift */; };
 		106DD3AB2AD55AB30063294B /* ForthTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DD3AA2AD55AB30063294B /* ForthTabViewController.swift */; };
 		106DD3AD2AD55B830063294B /* TabBarContianerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DD3AC2AD55B830063294B /* TabBarContianerViewController.swift */; };
-		106DD3B12AD582F50063294B /* SBLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106DD3B02AD582F50063294B /* SBLogin.storyboard */; };
-		106DD3B32AD583080063294B /* SBSetting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106DD3B22AD583080063294B /* SBSetting.storyboard */; };
 		1071855C2ACE9BFA001E7272 /* verticalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071855B2ACE9BFA001E7272 /* verticalCollectionViewCell.swift */; };
 		1071855E2ACE9DF8001E7272 /* verticalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071855D2ACE9DF8001E7272 /* verticalViewController.swift */; };
 		107185602ACEBFC4001E7272 /* HeaderFooterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1071855F2ACEBFC4001E7272 /* HeaderFooterViewController.swift */; };
@@ -100,6 +105,13 @@
 		1057ED912AD2B9F600225C02 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		1057ED942AD2C67800225C02 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		1057ED962AD2DFF700225C02 /* TabBarClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarClass.swift; sourceTree = "<group>"; };
+		1066BC0F2AD67D4100028E10 /* segmentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segmentedViewController.swift; sourceTree = "<group>"; };
+		1066BC122AD6A03F00028E10 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		1066BC152AD6AC2000028E10 /* ContainerViewCotroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewCotroller.swift; sourceTree = "<group>"; };
+		1066BC172AD6BC3400028E10 /* TableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableView.storyboard; sourceTree = "<group>"; };
+		1066BC1B2AD6BD1A00028E10 /* CollectionView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CollectionView.storyboard; sourceTree = "<group>"; };
+		1066BC1D2AD6BD6100028E10 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		1066BC1F2AD6BDEF00028E10 /* Navigation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Navigation.storyboard; sourceTree = "<group>"; };
 		106DD39A2AD52D490063294B /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		106DD39F2AD542D70063294B /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		106DD3A12AD543390063294B /* UserDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataViewController.swift; sourceTree = "<group>"; };
@@ -108,12 +120,10 @@
 		106DD3A82AD55AA30063294B /* ThirdTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabViewController.swift; sourceTree = "<group>"; };
 		106DD3AA2AD55AB30063294B /* ForthTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthTabViewController.swift; sourceTree = "<group>"; };
 		106DD3AC2AD55B830063294B /* TabBarContianerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarContianerViewController.swift; sourceTree = "<group>"; };
-		106DD3B02AD582F50063294B /* SBLogin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SBLogin.storyboard; sourceTree = "<group>"; };
-		106DD3B22AD583080063294B /* SBSetting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SBSetting.storyboard; sourceTree = "<group>"; };
 		1071855B2ACE9BFA001E7272 /* verticalCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verticalCollectionViewCell.swift; sourceTree = "<group>"; };
 		1071855D2ACE9DF8001E7272 /* verticalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verticalViewController.swift; sourceTree = "<group>"; };
 		1071855F2ACEBFC4001E7272 /* HeaderFooterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderFooterViewController.swift; sourceTree = "<group>"; };
-		107185612ACED292001E7272 /* HeaderFooterCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HeaderFooterCollectionReusableView.swift; path = test/controllers/withoutOrder/HeaderFooterCollectionReusableView.swift; sourceTree = SOURCE_ROOT; };
+		107185612ACED292001E7272 /* HeaderFooterCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HeaderFooterCollectionReusableView.swift; path = test/controllers/CollectionView/HeaderFooterCollectionReusableView.swift; sourceTree = SOURCE_ROOT; };
 		107185632ACED2AA001E7272 /* HeaderFooterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderFooterCollectionViewCell.swift; sourceTree = "<group>"; };
 		107185652ACEE980001E7272 /* CollectionAndTableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionAndTableTableViewCell.swift; sourceTree = "<group>"; };
 		107185672ACEEA17001E7272 /* collectionAndTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionAndTableViewController.swift; sourceTree = "<group>"; };
@@ -153,26 +163,18 @@
 		10518C432AD144AA002FBDC6 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				106DD3AE2AD57FC90063294B /* withoutOrder */,
+				1066BC1A2AD6BCD500028E10 /* CollectionView */,
+				1066BC192AD6BC6400028E10 /* TableView */,
+				1066BC142AD6ABAE00028E10 /* PageViewController */,
+				1066BC112AD6A01900028E10 /* PickerView */,
+				1066BC0E2AD67D1700028E10 /* segmented */,
 				106DD3A32AD55A4F0063294B /* notifcation */,
 				106DD39E2AD540CB0063294B /* passingDataUsingProtocolAndDelegate */,
 				10820E632AD41075008B005B /* Passing Data */,
-				10820E622AD3E062008B005B /* cintainers */,
 				1057ED932AD2C65F00225C02 /* TabBar */,
 				10518C552AD1771F002FBDC6 /* navigetionController */,
-				10518C4E2AD161B5002FBDC6 /* TableCollection */,
 			);
 			path = controllers;
-			sourceTree = "<group>";
-		};
-		10518C4E2AD161B5002FBDC6 /* TableCollection */ = {
-			isa = PBXGroup;
-			children = (
-				10518C4F2AD1630C002FBDC6 /* TCCollectionViewCell.swift */,
-				10518C512AD16324002FBDC6 /* TCViewController.swift */,
-				10518C532AD16343002FBDC6 /* TCTableViewCell.swift */,
-			);
-			path = TableCollection;
 			sourceTree = "<group>";
 		};
 		10518C552AD1771F002FBDC6 /* navigetionController */ = {
@@ -245,6 +247,64 @@
 			path = TabBar;
 			sourceTree = "<group>";
 		};
+		1066BC0E2AD67D1700028E10 /* segmented */ = {
+			isa = PBXGroup;
+			children = (
+				1066BC0F2AD67D4100028E10 /* segmentedViewController.swift */,
+			);
+			path = segmented;
+			sourceTree = "<group>";
+		};
+		1066BC112AD6A01900028E10 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				1066BC122AD6A03F00028E10 /* PickerViewController.swift */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		1066BC142AD6ABAE00028E10 /* PageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1066BC152AD6AC2000028E10 /* ContainerViewCotroller.swift */,
+			);
+			path = PageViewController;
+			sourceTree = "<group>";
+		};
+		1066BC192AD6BC6400028E10 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				1083946D2ACAFFF1000B92AE /* TableViewCell.swift */,
+				1083946F2ACB014E000B92AE /* ViewController.swift */,
+				1050D6032ACC01A30091067B /* insertUpdateDeleteViewController.swift */,
+				1050D6052ACC310F0091067B /* sectionViewController.swift */,
+				1050D6072ACC3C5A0091067B /* RefreshViewController.swift */,
+				1050D6092ACC494F0091067B /* selfSizingViewController.swift */,
+				1050D60B2ACC49CD0091067B /* selfSizingTableViewCell.swift */,
+				1052713A2ACD3F71007A1123 /* NoDataViewController.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		1066BC1A2AD6BCD500028E10 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				10518C4F2AD1630C002FBDC6 /* TCCollectionViewCell.swift */,
+				10518C512AD16324002FBDC6 /* TCViewController.swift */,
+				10518C532AD16343002FBDC6 /* TCTableViewCell.swift */,
+				1052713C2ACD67A5007A1123 /* FirstCollectionViewCell.swift */,
+				107185672ACEEA17001E7272 /* collectionAndTableViewController.swift */,
+				1052713E2ACD69F5007A1123 /* firstCollectionViewController.swift */,
+				1071855B2ACE9BFA001E7272 /* verticalCollectionViewCell.swift */,
+				107185652ACEE980001E7272 /* CollectionAndTableTableViewCell.swift */,
+				1071855D2ACE9DF8001E7272 /* verticalViewController.swift */,
+				1071855F2ACEBFC4001E7272 /* HeaderFooterViewController.swift */,
+				107185612ACED292001E7272 /* HeaderFooterCollectionReusableView.swift */,
+				107185632ACED2AA001E7272 /* HeaderFooterCollectionViewCell.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
 		106DD39E2AD540CB0063294B /* passingDataUsingProtocolAndDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,44 +326,15 @@
 			path = notifcation;
 			sourceTree = "<group>";
 		};
-		106DD3AE2AD57FC90063294B /* withoutOrder */ = {
-			isa = PBXGroup;
-			children = (
-				1083946D2ACAFFF1000B92AE /* TableViewCell.swift */,
-				1083946F2ACB014E000B92AE /* ViewController.swift */,
-				1050D6032ACC01A30091067B /* insertUpdateDeleteViewController.swift */,
-				1050D6052ACC310F0091067B /* sectionViewController.swift */,
-				1050D6072ACC3C5A0091067B /* RefreshViewController.swift */,
-				1050D6092ACC494F0091067B /* selfSizingViewController.swift */,
-				1050D60B2ACC49CD0091067B /* selfSizingTableViewCell.swift */,
-				1052713A2ACD3F71007A1123 /* NoDataViewController.swift */,
-				1052713C2ACD67A5007A1123 /* FirstCollectionViewCell.swift */,
-				107185672ACEEA17001E7272 /* collectionAndTableViewController.swift */,
-				1052713E2ACD69F5007A1123 /* firstCollectionViewController.swift */,
-				1071855B2ACE9BFA001E7272 /* verticalCollectionViewCell.swift */,
-				107185652ACEE980001E7272 /* CollectionAndTableTableViewCell.swift */,
-				1071855D2ACE9DF8001E7272 /* verticalViewController.swift */,
-				1071855F2ACEBFC4001E7272 /* HeaderFooterViewController.swift */,
-				107185612ACED292001E7272 /* HeaderFooterCollectionReusableView.swift */,
-				107185632ACED2AA001E7272 /* HeaderFooterCollectionViewCell.swift */,
-			);
-			path = withoutOrder;
-			sourceTree = "<group>";
-		};
 		106DD3AF2AD582A60063294B /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				106DD3B02AD582F50063294B /* SBLogin.storyboard */,
-				106DD3B22AD583080063294B /* SBSetting.storyboard */,
+				1066BC172AD6BC3400028E10 /* TableView.storyboard */,
+				1066BC1B2AD6BD1A00028E10 /* CollectionView.storyboard */,
+				1066BC1D2AD6BD6100028E10 /* TabBar.storyboard */,
+				1066BC1F2AD6BDEF00028E10 /* Navigation.storyboard */,
 			);
 			path = Storyboard;
-			sourceTree = "<group>";
-		};
-		10820E622AD3E062008B005B /* cintainers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = cintainers;
 			sourceTree = "<group>";
 		};
 		10820E632AD41075008B005B /* Passing Data */ = {
@@ -424,9 +455,11 @@
 			files = (
 				105538452AC959A1002F4E5F /* LaunchScreen.storyboard in Resources */,
 				105538422AC959A1002F4E5F /* Assets.xcassets in Resources */,
+				1066BC1C2AD6BD1A00028E10 /* CollectionView.storyboard in Resources */,
+				1066BC182AD6BC3400028E10 /* TableView.storyboard in Resources */,
+				1066BC1E2AD6BD6100028E10 /* TabBar.storyboard in Resources */,
 				105538402AC959A1002F4E5F /* Main.storyboard in Resources */,
-				106DD3B12AD582F50063294B /* SBLogin.storyboard in Resources */,
-				106DD3B32AD583080063294B /* SBSetting.storyboard in Resources */,
+				1066BC202AD6BDEF00028E10 /* Navigation.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,9 +494,11 @@
 				10518C522AD16324002FBDC6 /* TCViewController.swift in Sources */,
 				107185602ACEBFC4001E7272 /* HeaderFooterViewController.swift in Sources */,
 				105538392AC959A1002F4E5F /* AppDelegate.swift in Sources */,
+				1066BC132AD6A03F00028E10 /* PickerViewController.swift in Sources */,
 				106DD3A22AD543390063294B /* UserDataViewController.swift in Sources */,
 				106DD3A02AD542D70063294B /* UserProfileViewController.swift in Sources */,
 				10820E6B2AD42D89008B005B /* FourthViewController.swift in Sources */,
+				1066BC162AD6AC2000028E10 /* ContainerViewCotroller.swift in Sources */,
 				10518C542AD16343002FBDC6 /* TCTableViewCell.swift in Sources */,
 				1052713D2ACD67A5007A1123 /* FirstCollectionViewCell.swift in Sources */,
 				106DD39B2AD52D490063294B /* FifthViewController.swift in Sources */,
@@ -472,6 +507,7 @@
 				107185622ACED292001E7272 /* HeaderFooterCollectionReusableView.swift in Sources */,
 				1050D6062ACC310F0091067B /* sectionViewController.swift in Sources */,
 				1071855C2ACE9BFA001E7272 /* verticalCollectionViewCell.swift in Sources */,
+				1066BC102AD67D4100028E10 /* segmentedViewController.swift in Sources */,
 				1057ED952AD2C67800225C02 /* TabBarViewController.swift in Sources */,
 				108394702ACB014E000B92AE /* ViewController.swift in Sources */,
 				1050D6082ACC3C5A0091067B /* RefreshViewController.swift in Sources */,

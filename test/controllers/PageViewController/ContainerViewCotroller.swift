@@ -7,23 +7,41 @@
 
 import UIKit
 
-class ContainerViewCotroller: UIPageViewController {
-
+class ContainerViewCotroller: UIPageViewController, UIPageViewControllerDelegate, UIPageViewControllerDataSource {
+    
+    var arr = [UIViewController]()
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        delegate = self
+        dataSource = self
+        
+        if let vc1 = storyboard?.instantiateViewController(withIdentifier: "vc1")
+        {
+            arr.append(vc1)
+        }
+        if let vc2 = storyboard?.instantiateViewController(withIdentifier: "vc2")
+        {
+            arr.append(vc2)
+        }
+        if let vc3 = storyboard?.instantiateViewController(withIdentifier: "vc3")
+        {
+            arr.append(vc3)
+        }
+        if let firstVC = arr.first
+        {
+            setViewControllers([firstVC], direction: .forward, animated: true, completion: nil)
+        }
+    }
+   
 
-        // Do any additional setup after loading the view.
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
+        return nil
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
+        return nil
     }
-    */
+    
 
 }
